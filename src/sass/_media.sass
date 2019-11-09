@@ -1,0 +1,269 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 55px
+
+    .subheader_btn
+        margin-left: 30px
+    .advantages
+        &_description
+            padding-right: 5px
+        &_block
+            display: block
+            &_around
+                width: 113px
+                margin-left: 0
+                margin: 0 auto 15px
+    .advantages_text
+        text-align: center
+
+    .footer_container
+        .buy
+            flex-direction: column
+            align-items: flex-end
+            &_1
+                margin-bottom: 15px
+@media (max-width: 991px)
+    .menu
+        padding: 10px
+        &_item
+            padding-right: 13px
+        &_link
+            font-size: 11px
+    .subheader_logo
+        img
+            width: 90%
+    .subheader_phone
+        font-size: 20px
+    .subheader_btn
+        margin-left: 40px
+    .city
+        margin-top: 200px
+    .footer_container
+        padding-bottom: 15px
+        .social
+            flex-direction: column
+            align-items: center
+            margin-top: 5px
+            &_icon
+                margin: 2px 0
+        .buy
+            padding-top: 5px
+            align-items: center
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        // padding: 40px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+            a
+                line-height: 3
+        &_item
+            padding-right: 0
+            border: none
+        &_link
+            font-size: 20px
+            line-height: 3
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translate(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transform: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        height: 106px
+        &_logo
+            img
+                width: 97%
+                margin: 22px 0 0 -5px
+        &_phone
+            font-size: 21px
+            padding: 12px 29px 0 0
+        &_btn
+            font-size: 18px
+            height: 39px
+            margin-top: 20px
+            width: 195px
+    .promo
+        &_header
+            line-height: 1.2
+            margin-top: 88px
+        &_subheader
+            margin-top: 39px
+            line-height: 1.2
+    .advantages_block
+        display: block
+        &_around
+            width: 113px
+            margin-left: 0
+            margin: 0 auto 15px
+    .advantages_text
+        text-align: center
+    .position_img
+        img
+            width: 100%
+            margin-top: 25px
+    .car_futer_text
+        padding: 80px 0 10px
+    .city
+        margin-top: 120px
+        .menu_top
+            font-size: 13px
+        .nav_menu
+            flex-direction: column
+            text-align: center
+    .buy
+        justify-content: center
+@media (max-width: 575px)
+    .menu_active
+        width: 78%
+    .menu_link
+        font-size: 17px
+
+    .nav
+        height: 60px
+    .subheader
+        height: 80px
+        top: 60px
+        &_official
+            display: none
+        &_logo
+            img
+                margin-top: 14px
+        &_phone
+            font-size: 15px
+            padding: 10px 0 10px 0
+            margin: 0
+        &_btn
+            display: block
+            margin-left: 50px
+            margin: 0px
+            height: 30px
+            width: 150px
+            font-size: 12px
+    .promo
+        min-height: 0px
+        padding: 150px 0 60px
+        &_header
+            font-size: 35px
+            margin: 0
+        &_subheader
+            font-size: 20px
+        &_descr
+            display: none
+        &_btn
+            margin-top: 50px
+            width: 200px
+            height: 50px
+    .advantages
+        &_frame
+            margin-top: 30px
+        &_headline
+            font-size: 15px
+        &_block
+            margin-top: 10px
+    .mobapp
+        margin-top: 20px
+        padding-bottom: 20px
+        .header_textmobapp
+            font-size: 17px
+            margin: 0
+        .text_mobapp
+            margin-top: 0
+    .car
+        &_futer
+            background: #000
+            &_text
+                color: #fff
+                padding: 20px 0 20px
+    .car_blok
+        padding-bottom: 200px
+        padding-top: 20px
+    .header_cartext, .car_text
+        display: none
+    .position_img
+        top: 45px
+        width: 360px
+    .conditions_frame
+        margin-top: 20px
+    .text_conditions
+        font-size: 22px
+        margin-top: 0
+    .header_information
+        margin-top: 0
+    .img_icon
+        margin-left: 5px
+    .footer_map
+        padding: 20px 0 0
+    .headertext_map
+        margin: 0
+        font-size: 16px
+    .text_map
+        font-size: 15px
+    .footer_container
+        flex-direction: column
+        align-items: center
+        .social
+            flex-direction: row
+            width: 100%
+            justify-content: center
+            order: 2
+            margin: 20px 0
+    .footer_container .social .social_icon
+        margin: 0 5px
+        padding: 4px 0 0 1px
+    .navigation
+        width: 100%
+        order: 1
+        .menu_top
+            font-size: 13px
+            margin-top: 0
+        .nav_menu
+            padding: 0 22px
+            flex-wrap: wrap
+            justify-content: space-evenly
+    .footer_container .buy
+        flex-direction: row
+        justify-content: space-between
+        width: 100%
+        order: 3
+        &_1
+            margin-bottom: 0
+    .end_line
+        display: none

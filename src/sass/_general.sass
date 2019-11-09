@@ -1,0 +1,557 @@
+
+html
+    font-family: Roboto,sans-serif
+
+a:hover
+    text-decoration: none
+
+.nav
+    background-color: #212121
+    height: 50px
+    position: fixed
+    width: 100%
+    z-index: 10
+.hamburger
+    display: none
+.menu
+    display: flex
+    display: -ms-flexbox
+    display: -webkit-box
+    display: -webkit-flex
+    justify-content: space-between
+    list-style-type: none
+    margin: 0
+    ms-flex-pack: justify
+    padding: 10px 70px 16px
+    webkit-box-pack: justify
+    webkit-justify-content: space-between
+
+.menu_link
+    color: #fff
+    font-size: 15px
+    font-weight: 300
+
+.menu_item
+    border-right: 2px dotted #000
+    padding-right: 30px
+    &:last-child
+        border-right: none
+        padding-right: 0
+
+.header
+    position: relative
+
+.subheader
+    background-color: rgba(0, 0, 0, 0.6)
+    height: 84px
+    position: absolute
+    top: 50px
+    width: 100%
+
+.subheader_logo
+    display: block
+    margin-top: 16px
+    min-width: 100%
+
+.subheader_official
+    color: #fff
+    font-size: 13px
+    font-weight: 400
+    margin-top: 6px
+    opacity: .5
+
+.subheader_call
+    color: #fff
+    font-size: 12px
+    font-weight: 300
+    margin-top: 19px
+    text-align: right
+
+.subheader_phone
+    color: #fff
+    display: block
+    font-size: 22px
+    font-weight: 400
+    line-height: 12px
+    margin-top: 8px
+    text-align: right
+    text-transform: uppercase
+
+.subheader_btn
+    background-image: linear-gradient(to top, #1eacc7 0, #4ce2ff 100%)
+    background-image: -webkit-linear-gradient(bottom, #1eacc7 0, #4ce2ff 100%)
+    border: none
+    border-radius: 5px
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+    color: #fff
+    font-size: 14px
+    font-weight: 400
+    height: 46px
+    margin-top: 19px
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+    text-transform: uppercase
+    width: 172px
+
+.promo
+    background: url(../img/header_fons.png) center (center / cover) no-repeat
+    min-height: 800px
+    padding: 150px 0 135px
+
+.promo_header
+    color: #fff
+    font-size: 60px
+    font-weight: 700
+    line-height: 1
+    margin: 0
+    margin-top: 50px
+    text-align: center
+    text-transform: uppercase
+
+.promo_subheader
+    color: #fff
+    font-size: 36px
+    font-weight: 400
+    margin: 0
+    text-align: center
+
+.promo_descr
+    color: #fff
+    font-size: 18px
+    font-weight: 400
+    line-height: 24px
+    margin: 0
+    margin-top: 23px
+    text-align: center
+
+.promo_btn
+    background-image: linear-gradient(to top, #1eacc7 0, #4ce2ff 100%)
+    background-image: -webkit-linear-gradient(bottom, #1eacc7 0, #4ce2ff 100%)
+    border: none
+    border-radius: 5px
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+    color: #fff
+    display: block
+    font-size: 18px
+    font-weight: 400
+    height: 63px
+    margin: 118px auto 0
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+    text-transform: uppercase
+    width: 259px
+
+.advantages_frame
+    background-color: #000
+    color: #fff
+    display: block
+    font-size: 11px
+    font-weight: 400
+    height: 24px
+    margin: 71px auto 0
+    padding: 5px 0
+    text-align: center
+    text-transform: uppercase
+    width: 112px
+
+.advantages_headline
+    color: #222
+    font-size: 38px
+    font-weight: 700
+    line-height: 1
+    margin: 0
+    margin-top: 30px
+    text-align: center
+    text-transform: uppercase
+
+.advantages_block
+    display: flex
+    display: -ms-flexbox
+    display: -webkit-box
+    display: -webkit-flex
+    margin-top: 32px
+    min-height: 142px
+    &_around
+        align-items: center
+        background-color: $blue_col
+        border-radius: 100%
+        display: flex
+        display: -ms-flexbox
+        display: -webkit-box
+        display: -webkit-flex
+        height: 113px
+        justify-content: center
+        margin: 15px 26px 0 27px
+        min-width: 113px
+        ms-flex-align: center
+        ms-flex-pack: center
+        webkit-align-items: center
+        webkit-box-align: center
+        webkit-box-pack: center
+        webkit-justify-content: center
+
+.advantages_img
+    margin: 0 auto
+
+.advantages_text
+    display: inline-block
+
+.advantages_hedeartext
+    color: $blue_col
+    font-size: 17px
+    font-weight: 400
+    line-height: 20px
+    margin-bottom: 0
+
+.advantages_description
+    color: #202020
+    display: block
+    font-size: 15px
+    font-weight: 400
+    line-height: 21px
+    padding: 2px 30px 0 0
+    text-align: justify
+
+.mobapp
+    background: url(../img/background_mobapp.png) center (center / cover) no-repeat
+    margin-top: 50px
+    padding: 48px 0 60px
+
+.mobapp_frame
+    background-color: #000
+    color: #fff
+    display: block
+    font-size: 11px
+    font-weight: 400
+    height: 24px
+    margin: 0 auto
+    padding: 5px 0
+    text-align: center
+    text-transform: uppercase
+    width: 112px
+
+.header_textmobapp
+    color: #222
+    font-size: 38px
+    font-weight: 700
+    line-height: 48px
+    margin-bottom: 0
+    margin-top: 27px
+    text-align: center
+    text-transform: uppercase
+
+.text_mobapp
+    color: #222
+    font-size: 17px
+    font-weight: 400
+    line-height: 21px
+    margin-bottom: 31px
+    margin-top: 6px
+    text-align: center
+
+.mobapp
+    &_box
+        display: flex
+        justify-content: center
+        position: relative
+        // width: 320px
+        // height: 280px
+        &_1
+            background: url(../img/1.png) center center/cover no-repeat
+        &_2
+            background: url(../img/2.png) center center/cover no-repeat
+        &_3
+            background: url(../img/3.png) center center/cover no-repeat
+        &_4
+            background: url(../img/4.png) center center/cover no-repeat
+        &_5
+            background: url(../img/5.png) center center/cover no-repeat
+        &_6
+            background: url(../img/6.png) center center/cover no-repeat
+        &_1, &_2, &_3, &_4, &_5, &_6
+            width: 320px
+            height: 280px
+            text-align: center
+            width: 320px
+            height: 280px
+            margin-bottom: 19px
+            padding: 0 10px
+            .mobapp_box_text
+                padding-top: 85px
+                color: #ffffff
+                font-family: Roboto
+                font-size: 24px
+                font-weight: 400
+                line-height: 31px
+                text-transform: uppercase
+            .mobapp_box_plus
+                position: absolute
+                top: 219px
+                left: 50%;
+                margin-left: -13px;
+
+.car
+    background: url(../img/beack_fone.png) center (center / cover) no-repeat
+
+.car .container
+    display: flex
+    display: -ms-flexbox
+    display: -webkit-box
+    display: -webkit-flex
+    justify-content: center
+    ms-flex-pack: center
+    position: relative
+    webkit-box-pack: center
+    webkit-justify-content: center
+
+.car_blok
+    padding-bottom: 310px
+    padding-top: 57px
+    position: relative
+
+.car_frame
+    background-color: #fff
+    color: #000
+    display: block
+    font-size: 11px
+    font-weight: 400
+    height: 24px
+    margin: 0 auto
+    padding: 5px 0
+    text-align: center
+    text-transform: uppercase
+    width: 112px
+
+.header_cartext
+    color: #fff
+    font-size: 38px
+    font-weight: 700
+    line-height: 48px
+    margin-top: 20px
+    text-align: center
+    text-transform: uppercase
+
+.car_text
+    color: #fff
+    font-size: 17px
+    font-weight: 400
+    line-height: 21px
+    text-align: center
+
+.position_img
+    height: 480px
+    position: absolute
+    top: 232px
+
+.car_futer
+    background: url(../img/car_futer.png) center (center / cover) no-repeat
+
+.car_futer_text
+    color: #222
+    font-size: 17px
+    font-weight: 300
+    line-height: 24px
+    margin: 0
+    padding: 213px 0 138px
+    text-align: center
+
+p
+    margin: 0
+
+.conditions_frame
+    background-color: #000
+    color: #fff
+    display: block
+    font-size: 11px
+    font-weight: 400
+    height: 24px
+    margin: 68px auto 0
+    padding: 5px 0
+    text-align: center
+    text-transform: uppercase
+    width: 112px
+
+.text_conditions
+    color: #222
+    font-size: 38px
+    font-weight: 700
+    line-height: 48px
+    margin-top: 20px
+    text-align: center
+    text-transform: uppercase
+
+.information_1
+    margin-bottom: 33px
+
+.header_information
+    color: $blue_col
+    font-size: 22px
+    font-weight: 400
+    margin-top: 15px
+
+.information_text_green, .information_text_red
+    display: flex
+    display: -ms-flexbox
+    display: -webkit-box
+    display: -webkit-flex
+
+.img_icon
+    margin-left: 19px
+
+.text_information
+    color: #222
+    font-size: 17px
+    font-weight: 300
+    line-height: 31px
+    margin-left: 10px
+
+.to_earn
+    color: $blue_col
+    font-weight: 300
+    margin-top: 10px
+
+.header_information_red
+    color: #ff5656
+    font-size: 22px
+    font-weight: 400
+    margin-top: 15px
+
+.footer_map
+    background: url(../img/footer_fone.png) center (center / cover) no-repeat
+    display: flex
+    display: -ms-flexbox
+    display: -webkit-box
+    display: -webkit-flex
+    margin-top: 57px
+    padding: 49px 0 25px
+
+.city_button
+    background-color: #fff
+    color: #070716
+    display: block
+    font-size: 11px
+    font-weight: 400
+    height: 24px
+    margin: 0 auto
+    text-transform: uppercase
+    width: 76px
+    
+
+.headertext_map
+    color: #fff
+    font-family: Roboto
+    font-size: 38px
+    font-weight: 700
+    line-height: 48px
+    margin-top: 22px
+    text-align: center
+    text-transform: uppercase
+
+.text_map
+    color: #fff
+    font-size: 17px
+    font-weight: 400
+    line-height: 10px
+    text-align: center
+
+.city
+    color: $blue_col
+    display: block
+    font-size: 15px
+    font-weight: 400
+    line-height: 68px
+    margin-top: 463px
+    text-align: center
+    text-transform: uppercase
+
+.footer_container
+    display: flex
+    display: -ms-flexbox
+    display: -webkit-box
+    display: -webkit-flex
+    justify-content: space-between
+    min-height: 150px
+    ms-flex-pack: justify
+    padding: 15px 0px 30px
+    webkit-box-pack: justify
+    webkit-justify-content: space-between
+    .social
+        width: 25%
+        margin-top: 38px
+        display: flex
+        .social_icon
+            display: flex
+            width: 32px
+            height: 32px
+            margin-left: 10px
+            background-color: #070716
+            border-radius: 50%
+            justify-content: center
+            align-items: center
+            .social_contact
+                color: #fffdfdfa
+.navigation
+    width: 50%
+    &_block
+        margin: 0 auto
+        max-width: 390px
+        .line
+            background-color: $blue_col
+            height: 4px
+            margin: 0 auto
+            width: 299px
+        .nav_menu_top
+            display: flex
+            display: -ms-flexbox
+            display: -webkit-box
+            display: -webkit-flex
+            justify-content: space-around
+            margin-top: 25px
+            ms-flex-pack: distribute
+            webkit-justify-content: space-around
+        .menu_top
+            color: #070716
+            font-size: 15px
+            font-weight: 300
+            text-transform: uppercase
+        .nav_menu
+            display: flex
+            display: -ms-flexbox
+            display: -webkit-box
+            display: -webkit-flex
+            justify-content: space-around
+            margin-top: 8px
+            ms-flex-pack: distribute
+            webkit-justify-content: space-around
+            .menu_bottom
+                color: #999
+                font-size: 11px
+                font-weight: 300
+                text-transform: uppercase
+        .language
+            color: $blue_col
+            font-size: 11px
+            font-weight: 400
+            margin-top: 15px
+            text-align: center
+            text-transform: uppercase
+.buy
+    display: flex
+    display: -ms-flexbox
+    display: -webkit-box
+    display: -webkit-flex
+    justify-content: end
+    width: 25%
+    ms-flex-pack: end
+    padding-top: 37px
+    webkit-box-pack: end
+    webkit-justify-content: end
+    .buy_1
+        display: block
+        height: 25px
+        padding-right: 10px
+        width: 100px
+
+.end_line
+    background-color: #070716
+    height: 12px
+.xs-visible
+    display: none
